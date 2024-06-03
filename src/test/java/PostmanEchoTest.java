@@ -27,7 +27,7 @@ public class PostmanEchoTest {
 
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Сегодня выходной день"));
+                .body("data", equalTo("Сегодня рабочий день"));
 
     }
 
